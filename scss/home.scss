@@ -1,0 +1,35 @@
+.home {
+  max-width: 1280px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+      to right,
+      rgba(242, 92, 84, 0.8),
+      rgba(242, 92, 84, 0.8)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+
+  .yellowCircle {
+    width: 358px;
+    height: 358px;
+    border-radius: 50%;
+    background-color: #ffd972;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h1 {
+      width: 220px;
+      padding-top: 50px;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}
